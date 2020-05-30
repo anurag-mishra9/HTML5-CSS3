@@ -1,0 +1,91 @@
+HTML Tags : 
+
+1. <h1></h1> - Header
+2. <p></p> - Paragraph
+3. <em></em> - Emphasis 
+4. <i></i> - Italics 
+5. <strong></strong> - Highlight Text
+6. <b></b> - Bold
+7. <li></li> - List Item
+8. <ul></ul> - Un ordered List
+9. <ol></ol> - Ordered List 
+10. <dt></dt> - Definition Term 
+11. <dd></dd> - Definition description. 
+12. <q></q> - Quote
+13. <time datetime = ""></time>
+14. <code></code> - Display Code in HTML  
+15. < = &lt;    
+	> = &gt; 
+	& = &amp; -- to dispaly < & > sign in HTML 
+	&nbsp; -- Non breaking Space
+16. <br> - Line Break
+17. <pre> <code> </code> </pre> - HTML & CSS Code display 
+18. <sub></sub> - Mathematical Formulas 
+19. <sup></sup> - ""
+20. <small></small> - font change
+21. <cite></cite> - Signatures 
+22. <blockquote></blockquote> - Quotes Block Display
+
+
+Global Attributes which work on any HTML element
+
+<p  class= "intro" id= "article" ></p>
+id  should always be unique
+
+<p lang= "en-GB" ></p> - language
+<p dir = "ltr"/"rtl" > </p> - Directions of text flows 
+
+Links - <a href = "link to go"></a>
+
+Navigation <nav></nav>
+
+Images -  
+<img src = "" alt = "" width ="" height = ""></img>
+
+GIF - low quality 
+SVG(Scalable Vector Graphics) - Icons
+JPG/JPEG (Compress and then use to avoid site slowness )
+PNG - when Transparency required
+-- Always check file size and compression to make them download them faster
+
+srcset = "" - Responsive Images for different screen type
+sizes = ""
+
+<picture>
+	<source media = "(min-width:''px)" srcset = ""> 
+	<source srcset = ""> 
+	<img src = "" alt = "" width ="" height = ""></img>	
+<picture> -- Conditional Photo on pixel size (Responsive Images)
+
+
+<figure>
+	<img></img> 
+	<figcaption></figcaption>
+</figure> -- Add Figure Caption and Image as one set using figcaption
+
+<audio controls src = "" loop autoplay></audio> 
+<video controls src = "" loop autoplay></video> - Switch between video quality using adaptive bitrate screening.
+
+<video controls>  
+<source></source>
+<track src = "" srclang = "" kind = "" label = "" default/> -- Add Subtitles 
+</video>
+ 
+<html lang = "en-US" dir= "ltr"></html> - Website language.
+<head>
+<meta charset = "UTF-8"></head>
+
+
+<div> - Block Level Element . Can take all the global attributes
+
+<span> - Inline Element.
+
+<form></form> - Used for Login pages 
+
+
+<table></table> - Table 
+<tr> - Row
+<th> - Header
+<td> - Data
+
+

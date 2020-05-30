@@ -1,0 +1,70 @@
+CSS can be added in 3 ways .
+	1. External (Separate .css file) can be accessed using <link> tag  -- Reusable for multiple HTML files.
+	2. Inline using <p style = "" ></p>  
+	3. Internal <style></style>
+	
+CSS guidelines / spectifications from W3C  
+
+codeguide.co --- Website code guide for CSS and HTML 
+CSS values and units - Refer
+
+#color expressed in name , hex , rgb co-ordinates 
+	, colour-name
+	, rgb(0,0,0) 
+	, rgba(0,0,0,0) a - opacity
+	, hsl() , hsla() - hue saturation lightness.
+	
+Universal Selectors : .{} -- everything
+
+1. Type Selectors h1 {...}
+
+2. Class Selectors  .ClassName { ... } 
+		className can be multiple 
+		<p class = "fancy intro" > .fancy{} & .intro{}
+		
+3. Id Selectors #ID_NAME {...}
+		<p id = "intro" > #intro{...}
+		
+4. Descendant Selectors.
+5. Grouping/Combinig Selectors.
+
+Inheritance: body { ... } will impact all the selectors included in body
+
+Specificity :-
+
+* - universal 
+type - (p)
+class (.example)
+id (#example)
+
+Cascade Rule 
+
+Pseudo Class -- Action Required from User
+
+Box Model 
+ Width , Height , Padding , Margin , Border
+ 
+Typography (CSS)
+font-size : px em rem 
+
+Layouts using Floats & Position
+float , clear , clearfix:after , box model fix 
+
+Position - static,relative,fixed,absolute,sticky
+Position - z-index
+
+Flexbox & Grid - New Technologies
+
+Flex Container (Parent Element)-> Flex Items (child Elements)
+
+Grid explicit / implicit
+
+Advanced Selectors 
+Pseudo class selectors
+
+Responsive Background Images 
+Media Query CSS > width breakpoints
+
+Meta > Viewport 
+
+
