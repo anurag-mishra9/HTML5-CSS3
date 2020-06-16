@@ -17,7 +17,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
-    line-height: 1.5;
+
 }
 img /*selector*/ { /*description box*/
     width : 300px; /*description*/
@@ -42,7 +42,7 @@ h1 {
 
 h2 {
     font-size: 20px;
-    
+
 }
 
 h1 h2 {
@@ -64,10 +64,11 @@ h3 {
 
 
 .content-wrap {
-    max-width: 800px;
+    max-width: 900px;
     width : 85%;
     margin: 0 auto;
     padding: 60px 0 ;
+    line-height: 1.5;
 }
 
 .divider > section {
@@ -98,6 +99,7 @@ header{
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
+    line-height: 2;
 }
 
 .education p {
@@ -129,19 +131,31 @@ header{
 
 .project-line {
     overflow: hidden;
-   
+
 }
 
 .project-line h3 {
     margin: 0;
 }
 
+.project-line p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 
 /* Work Experience  */
 .work-experience{
-    background:lightblue;
-   
-}
+    background-image: url(../images/office-background.jpg);
+    background-size: cover;
+    background-position: top right;
+
+ }
+
+ .work-experience p {
+     width: 60%;
+
+ }
 
 .job-summary p{
     margin: 0;
@@ -169,6 +183,7 @@ footer{
     background: grey;
 }
 
+
 /* Responsive Layout */
 
 @media screen and (min-width : 750px){
@@ -177,19 +192,24 @@ footer{
         text-align: left;
     }
     .project-line img {
-        float: left;
-        margin-right: 20px;
+        width : 150px;
+        float: right;
+        margin-right: 0;
     }
 
     .job-item {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 20px;
+        /* display: grid;
+        grid-template-columns: 4fr 5fr;
+        column-gap: 40px; */
     }
 
     .contact-list {
         display: flex;
         justify-content: center;
+    }
+
+    .contacts a{
+      justify-content: center;
     }
 
 
